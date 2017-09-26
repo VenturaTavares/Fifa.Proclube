@@ -25,3 +25,7 @@
 /Users/karinanishioka/Projects/Fifa.Proclube/Fifa.Proclube.API/obj/Debug/Fifa.Proclube.API.csproj.CoreCompileInputs.cache
 /Users/karinanishioka/Projects/Fifa.Proclube/Fifa.Proclube.API/obj/Debug/Fifa.Proclube.API.dll
 /Users/karinanishioka/Projects/Fifa.Proclube/Fifa.Proclube.API/obj/Debug/Fifa.Proclube.API.pdb
+C:\Projetos\ProClube\Fifa.Proclube.API\obj\Debug\Fifa.Proclube.API.csprojResolveAssemblyReference.cache
+C:\Projetos\ProClube\Fifa.Proclube.API\obj\Debug\Fifa.Proclube.API.csproj.CoreCompileInputs.cache
+C:\Projetos\ProClube\Fifa.Proclube.API\obj\Debug\Fifa.Proclube.API.dll
+C:\Projetos\ProClube\Fifa.Proclube.API\obj\Debug\Fifa.Proclube.API.pdb
