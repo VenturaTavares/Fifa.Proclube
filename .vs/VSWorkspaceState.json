@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Fifa.Proclube.API"
   ],
+  "SelectedNode": "\\Fifa.Proclube.API\\Startup.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -73,11 +73,15 @@
     <Compile Include="Models\Mapping\UsuarioMap.cs" />
     <Compile Include="Models\Posicao.cs" />
     <Compile Include="Models\Usuario.cs" />
+    <Compile Include="Infraestrutura\ProclubeContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositorio\BaseRepository.cs" />
+    <Compile Include="Repositorio\CampeonatoRepositorio.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
