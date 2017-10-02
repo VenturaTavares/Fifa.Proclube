@@ -150,6 +150,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Providers\SimpleAuthorizationServerProvider.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="Controllers\UserController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-1.6.4-vsdoc.js" />

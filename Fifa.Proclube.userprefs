@@ -1,7 +1,16 @@
 ﻿<Properties StartupConfiguration="{0E2D5FE1-0404-442D-8201-0977DC2BE87D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Fifa.Proclube Status">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Fifa.Proclube.git Status">
     <Files>
-      <File FileName="Fifa.Proclube Status" />
+      <File FileName="Fifa.Proclube.Domains/Infraestrutura/ProclubeContext.cs" Line="28" Column="52" />
+      <File FileName="Fifa.Proclube.Domains/Models/Usuario.cs" Line="71" Column="10" />
+      <File FileName="Fifa.Proclube.API/Controllers/UserController.cs" Line="1" Column="1" />
+      <File FileName="Fifa.Proclube.API/Controllers/HomeController.cs" Line="10" Column="28" />
+      <File FileName="Fifa.Proclube.API/Providers/SimpleAuthorizationServerProvider.cs" Line="1" Column="1" />
+      <File FileName="Fifa.Proclube.Domains/Models/ViewModels.cs" Line="1" Column="1" />
+      <File FileName="Fifa.Proclube.Domains/Models/ViewModels/UsuarioViewModel.cs" Line="6" Column="34" />
+      <File FileName="Fifa.Proclube.Domains/Repositorio/UsuarioRepository.cs" Line="23" Column="18" />
+      <File FileName="Fifa.Proclube.Domains/Models/Jogador.cs" Line="32" Column="9" />
+      <File FileName="Fifa.Proclube.git Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

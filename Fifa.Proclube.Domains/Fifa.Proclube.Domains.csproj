@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -77,11 +77,23 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositorio\BaseRepository.cs" />
     <Compile Include="Repositorio\CampeonatoRepositorio.cs" />
+    <Compile Include="Repositorio\ClubeRepository.cs" />
+    <Compile Include="Repositorio\ClubeContratandoRepository.cs" />
+    <Compile Include="Repositorio\ClubeElencoRepository.cs" />
+    <Compile Include="Repositorio\DesenvolvimentoRepository.cs" />
+    <Compile Include="Repositorio\EstatisticasRepository.cs" />
+    <Compile Include="Repositorio\JogadorRepository.cs" />
+    <Compile Include="Repositorio\PosicaoRepository.cs" />
+    <Compile Include="Repositorio\UsuarioRepository.cs" />
+    <Compile Include="Models\ViewModels\UsuarioViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Models\ViewModels\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
