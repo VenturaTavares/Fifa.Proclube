@@ -68,6 +68,8 @@ namespace Fifa.Proclube.Domains.Models
             set;
         }
 
+        I
+
 
     }
 }

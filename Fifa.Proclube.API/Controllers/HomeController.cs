@@ -7,7 +7,7 @@ using System.Web.Mvc.Ajax;
 
 namespace Fifa.Proclube.API.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : API.Controllers
     {
         public ActionResult Index()
         {
