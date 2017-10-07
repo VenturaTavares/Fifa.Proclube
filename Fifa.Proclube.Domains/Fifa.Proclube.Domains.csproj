@@ -86,6 +86,10 @@
     <Compile Include="Repositorio\PosicaoRepository.cs" />
     <Compile Include="Repositorio\UsuarioRepository.cs" />
     <Compile Include="Common\Encryption.cs" />
+    <Compile Include="Models\ViewModels\UsuarioResumo.cs" />
+    <Compile Include="Models\ViewModels\JogadorResumo.cs" />
+    <Compile Include="Models\ViewModels\ClubeResumo.cs" />
+    <Compile Include="Repositorio\ClubeCampeonatoRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

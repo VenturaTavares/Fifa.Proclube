@@ -23,11 +23,7 @@ namespace Fifa.Proclube.Domains.Models
 			set;
 		}
 
-        public Usuario Usuario
-        {
-            get;
-            set;
-        }
+     
 
 
 		public string Nome

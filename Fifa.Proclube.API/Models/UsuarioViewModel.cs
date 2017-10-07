@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Web.Mvc;
+using Fifa.Proclube.Domains.Models;
 
 namespace Fifa.Proclube.API.Models
 {
@@ -76,6 +78,8 @@ namespace Fifa.Proclube.API.Models
             get;
             set;
         }
+
+        public List<Jogador> Jogadores { get; set}
 
     }
 
