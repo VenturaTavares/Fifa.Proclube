@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Threading.Tasks;
+using Fifa.Proclube.Domains.Common;
 using Fifa.Proclube.Domains.Infraestrutura;
 using Fifa.Proclube.Domains.Models;
 using Fifa.Proclube.Domains.Models.ViewModels;
@@ -16,23 +17,29 @@ namespace Fifa.Proclube.Domains.Repositorio
 		}
 
 
-        public Task<UsuarioViewModel> ObterUsuario(int UsuarioID) {
-
-            UsuarioViewModel usuario = new UsuarioViewModel();
-
-            list<
-
-            var rep = new JogadorRepository(new ProclubeContext());
+     
+        public async Task<Usuario> AutenticarUsuario(string usuario ,string senha){
 
 
-            usuario.Jogadores =  await rep.FindAllAsync(s=>s.)
 
-        
-        
+            
+            Usuario _usuario = new Usuario();
+
+            bool UsuarioAutenticado = false;
+
+            var UsuarioNome = await this.FindAsync(s => s.NickName.ToLower() == usuario.ToLower());
+
+             UsuarioAutenticado = Encryption.Decrypt(UsuarioNome.Senha) == senha;
+
+            if (UsuarioAutenticado)
+                _usuario = UsuarioNome;
+                        
+
+            return _usuario;
+                
         }
 
 
 
-        }
 	}
 }

@@ -1,13 +1,26 @@
-C:\Projetos\ProClube\Fifa.Proclube.Domains\bin\Debug\Fifa.Proclube.Domains.dll.config
-C:\Projetos\ProClube\Fifa.Proclube.Domains\bin\Debug\Fifa.Proclube.Domains.dll
-C:\Projetos\ProClube\Fifa.Proclube.Domains\bin\Debug\Fifa.Proclube.Domains.pdb
-C:\Projetos\ProClube\Fifa.Proclube.Domains\bin\Debug\EntityFramework.dll
-C:\Projetos\ProClube\Fifa.Proclube.Domains\bin\Debug\EntityFramework.SqlServer.dll
-C:\Projetos\ProClube\Fifa.Proclube.Domains\bin\Debug\MySql.Data.dll
-C:\Projetos\ProClube\Fifa.Proclube.Domains\bin\Debug\MySql.Data.Entity.EF6.dll
-C:\Projetos\ProClube\Fifa.Proclube.Domains\bin\Debug\EntityFramework.xml
-C:\Projetos\ProClube\Fifa.Proclube.Domains\bin\Debug\EntityFramework.SqlServer.xml
-C:\Projetos\ProClube\Fifa.Proclube.Domains\obj\Debug\Fifa.Proclube.Domains.csprojResolveAssemblyReference.cache
-C:\Projetos\ProClube\Fifa.Proclube.Domains\obj\Debug\Fifa.Proclube.Domains.csproj.CoreCompileInputs.cache
-C:\Projetos\ProClube\Fifa.Proclube.Domains\obj\Debug\Fifa.Proclube.Domains.dll
-C:\Projetos\ProClube\Fifa.Proclube.Domains\obj\Debug\Fifa.Proclube.Domains.pdb
+C:/Projetos/ProClube/Fifa.Proclube.Domains/bin/Debug/Fifa.Proclube.Domains.dll.config
+C:/Projetos/ProClube/Fifa.Proclube.Domains/bin/Debug/Fifa.Proclube.Domains.dll
+C:/Projetos/ProClube/Fifa.Proclube.Domains/bin/Debug/Fifa.Proclube.Domains.pdb
+C:/Projetos/ProClube/Fifa.Proclube.Domains/bin/Debug/EntityFramework.dll
+C:/Projetos/ProClube/Fifa.Proclube.Domains/bin/Debug/EntityFramework.SqlServer.dll
+C:/Projetos/ProClube/Fifa.Proclube.Domains/bin/Debug/MySql.Data.dll
+C:/Projetos/ProClube/Fifa.Proclube.Domains/bin/Debug/MySql.Data.Entity.EF6.dll
+C:/Projetos/ProClube/Fifa.Proclube.Domains/bin/Debug/EntityFramework.xml
+C:/Projetos/ProClube/Fifa.Proclube.Domains/bin/Debug/EntityFramework.SqlServer.xml
+C:/Projetos/ProClube/Fifa.Proclube.Domains/obj/Debug/Fifa.Proclube.Domains.csprojResolveAssemblyReference.cache
+C:/Projetos/ProClube/Fifa.Proclube.Domains/obj/Debug/Fifa.Proclube.Domains.csproj.CoreCompileInputs.cache
+C:/Projetos/ProClube/Fifa.Proclube.Domains/obj/Debug/Fifa.Proclube.Domains.dll
+C:/Projetos/ProClube/Fifa.Proclube.Domains/obj/Debug/Fifa.Proclube.Domains.pdb
+/Users/karinanishioka/Documents/Projetos .NET/VenturaTavares/Fifa.Proclube.git/Fifa.Proclube.Domains/bin/Debug/Fifa.Proclube.Domains.dll.config
+/Users/karinanishioka/Documents/Projetos .NET/VenturaTavares/Fifa.Proclube.git/Fifa.Proclube.Domains/bin/Debug/Fifa.Proclube.Domains.dll
+/Users/karinanishioka/Documents/Projetos .NET/VenturaTavares/Fifa.Proclube.git/Fifa.Proclube.Domains/bin/Debug/Fifa.Proclube.Domains.pdb
+/Users/karinanishioka/Documents/Projetos .NET/VenturaTavares/Fifa.Proclube.git/Fifa.Proclube.Domains/bin/Debug/EntityFramework.dll
+/Users/karinanishioka/Documents/Projetos .NET/VenturaTavares/Fifa.Proclube.git/Fifa.Proclube.Domains/bin/Debug/EntityFramework.SqlServer.dll
+/Users/karinanishioka/Documents/Projetos .NET/VenturaTavares/Fifa.Proclube.git/Fifa.Proclube.Domains/bin/Debug/MySql.Data.dll
+/Users/karinanishioka/Documents/Projetos .NET/VenturaTavares/Fifa.Proclube.git/Fifa.Proclube.Domains/bin/Debug/MySql.Data.Entity.EF6.dll
+/Users/karinanishioka/Documents/Projetos .NET/VenturaTavares/Fifa.Proclube.git/Fifa.Proclube.Domains/bin/Debug/EntityFramework.xml
+/Users/karinanishioka/Documents/Projetos .NET/VenturaTavares/Fifa.Proclube.git/Fifa.Proclube.Domains/bin/Debug/EntityFramework.SqlServer.xml
+/Users/karinanishioka/Documents/Projetos .NET/VenturaTavares/Fifa.Proclube.git/Fifa.Proclube.Domains/obj/Debug/Fifa.Proclube.Domains.csprojResolveAssemblyReference.cache
+/Users/karinanishioka/Documents/Projetos .NET/VenturaTavares/Fifa.Proclube.git/Fifa.Proclube.Domains/obj/Debug/Fifa.Proclube.Domains.csproj.CoreCompileInputs.cache
+/Users/karinanishioka/Documents/Projetos .NET/VenturaTavares/Fifa.Proclube.git/Fifa.Proclube.Domains/obj/Debug/Fifa.Proclube.Domains.dll
+/Users/karinanishioka/Documents/Projetos .NET/VenturaTavares/Fifa.Proclube.git/Fifa.Proclube.Domains/obj/Debug/Fifa.Proclube.Domains.pdb

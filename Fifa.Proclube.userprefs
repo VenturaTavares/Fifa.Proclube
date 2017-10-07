@@ -1,6 +1,10 @@
 ﻿<Properties StartupConfiguration="{0E2D5FE1-0404-442D-8201-0977DC2BE87D}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Fifa.Proclube.git Status">
     <Files>
+      <File FileName="Fifa.Proclube.Domains/Repositorio/UsuarioRepository.cs" Line="37" Column="13" />
+      <File FileName="Fifa.Proclube.Domains/Common/Encryption.cs" Line="7" Column="25" />
+      <File FileName="Fifa.Proclube.API/Providers/SimpleAuthorizationServerProvider.cs" Line="29" Column="29" />
+      <File FileName="Fifa.Proclube.API/Controllers/AccountController.cs" Line="58" Column="1" />
       <File FileName="Fifa.Proclube.git Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>

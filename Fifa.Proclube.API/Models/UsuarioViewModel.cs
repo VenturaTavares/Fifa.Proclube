@@ -1,13 +1,13 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
+using System.Web.Mvc;
 
-namespace Fifa.Proclube.Domains.Models
+namespace Fifa.Proclube.API.Models
 {
-    public class Usuario
+    public class UsuarioViewModel
     {
-        public Usuario()
+        public UsuarioViewModel()
         {
-
-            this.DataRegistro = DateTime.Now;
         }
 
 
@@ -15,22 +15,25 @@ namespace Fifa.Proclube.Domains.Models
         {
             get;
             set;
-     
+
         }
 
+        [Required]
         public string Nome
         {
             get;
             set;
-        
+
         }
 
+        [Required]
         public string NickName
         {
             get;
             set;
         }
 
+        [Required]
         public string CodigoPsn
         {
             get;
@@ -43,19 +46,25 @@ namespace Fifa.Proclube.Domains.Models
             set;
         }
 
+        [Required]
+        [EmailAddress(ErrorMessage = "E-mail inválido.")]
         public string Email
         {
             get;
             set;
-        
-         }
 
+        }
+
+        [Required]
+        [Remote("ValidarCPF", "Validacao")]
         public string CPF
         {
             get;
             set;
         }
 
+        [Required]
+        [MinLength(8, ErrorMessage = "Mínimo 8 caracteres")]
         public string Senha
         {
             get;
@@ -68,8 +77,7 @@ namespace Fifa.Proclube.Domains.Models
             set;
         }
 
-
-
-
     }
+
+	
 }

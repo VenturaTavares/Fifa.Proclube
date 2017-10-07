@@ -1,6 +1,12 @@
-C:\Projetos\ProClube\Fifa.Proclube.Infraestrutura\bin\Debug\Fifa.Proclube.Infraestrutura.dll
-C:\Projetos\ProClube\Fifa.Proclube.Infraestrutura\bin\Debug\Fifa.Proclube.Infraestrutura.pdb
-C:\Projetos\ProClube\Fifa.Proclube.Infraestrutura\obj\Debug\Fifa.Proclube.Infraestrutura.csprojResolveAssemblyReference.cache
-C:\Projetos\ProClube\Fifa.Proclube.Infraestrutura\obj\Debug\Fifa.Proclube.Infraestrutura.csproj.CoreCompileInputs.cache
-C:\Projetos\ProClube\Fifa.Proclube.Infraestrutura\obj\Debug\Fifa.Proclube.Infraestrutura.dll
-C:\Projetos\ProClube\Fifa.Proclube.Infraestrutura\obj\Debug\Fifa.Proclube.Infraestrutura.pdb
+C:/Projetos/ProClube/Fifa.Proclube.Infraestrutura/bin/Debug/Fifa.Proclube.Infraestrutura.dll
+C:/Projetos/ProClube/Fifa.Proclube.Infraestrutura/bin/Debug/Fifa.Proclube.Infraestrutura.pdb
+C:/Projetos/ProClube/Fifa.Proclube.Infraestrutura/obj/Debug/Fifa.Proclube.Infraestrutura.csprojResolveAssemblyReference.cache
+C:/Projetos/ProClube/Fifa.Proclube.Infraestrutura/obj/Debug/Fifa.Proclube.Infraestrutura.csproj.CoreCompileInputs.cache
+C:/Projetos/ProClube/Fifa.Proclube.Infraestrutura/obj/Debug/Fifa.Proclube.Infraestrutura.dll
+C:/Projetos/ProClube/Fifa.Proclube.Infraestrutura/obj/Debug/Fifa.Proclube.Infraestrutura.pdb
+/Users/karinanishioka/Documents/Projetos .NET/VenturaTavares/Fifa.Proclube.git/Fifa.Proclube.Infraestrutura/bin/Debug/Fifa.Proclube.Infraestrutura.dll
+/Users/karinanishioka/Documents/Projetos .NET/VenturaTavares/Fifa.Proclube.git/Fifa.Proclube.Infraestrutura/bin/Debug/Fifa.Proclube.Infraestrutura.pdb
+/Users/karinanishioka/Documents/Projetos .NET/VenturaTavares/Fifa.Proclube.git/Fifa.Proclube.Infraestrutura/obj/Debug/Fifa.Proclube.Infraestrutura.csprojResolveAssemblyReference.cache
+/Users/karinanishioka/Documents/Projetos .NET/VenturaTavares/Fifa.Proclube.git/Fifa.Proclube.Infraestrutura/obj/Debug/Fifa.Proclube.Infraestrutura.csproj.CoreCompileInputs.cache
+/Users/karinanishioka/Documents/Projetos .NET/VenturaTavares/Fifa.Proclube.git/Fifa.Proclube.Infraestrutura/obj/Debug/Fifa.Proclube.Infraestrutura.dll
+/Users/karinanishioka/Documents/Projetos .NET/VenturaTavares/Fifa.Proclube.git/Fifa.Proclube.Infraestrutura/obj/Debug/Fifa.Proclube.Infraestrutura.pdb

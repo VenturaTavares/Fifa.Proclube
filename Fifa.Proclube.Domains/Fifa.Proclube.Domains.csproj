@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Fifa.Proclube.Domains</RootNamespace>
     <AssemblyName>Fifa.Proclube.Domains</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -85,7 +85,7 @@
     <Compile Include="Repositorio\JogadorRepository.cs" />
     <Compile Include="Repositorio\PosicaoRepository.cs" />
     <Compile Include="Repositorio\UsuarioRepository.cs" />
-    <Compile Include="Models\ViewModels\UsuarioViewModel.cs" />
+    <Compile Include="Common\Encryption.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -94,6 +94,7 @@
   <ItemGroup />
   <ItemGroup>
     <Folder Include="Models\ViewModels\" />
+    <Folder Include="Common\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
