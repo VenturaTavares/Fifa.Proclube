@@ -1,21 +1,21 @@
 ﻿<Properties StartupConfiguration="{0E2D5FE1-0404-442D-8201-0977DC2BE87D}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Fifa.Proclube.git Status">
     <Files>
-      <File FileName="Fifa.Proclube.Domains/Models/ViewModels/UsuarioResumo.cs" Line="11" Column="51" />
-      <File FileName="Fifa.Proclube.Domains/Repositorio/UsuarioRepository.cs" Line="62" Column="13" />
-      <File FileName="Fifa.Proclube.Domains/Repositorio/JogadorRepository.cs" Line="41" Column="1" />
-      <File FileName="Fifa.Proclube.Domains/Repositorio/DesenvolvimentoRepository.cs" Line="15" Column="10" />
-      <File FileName="Fifa.Proclube.Domains/Models/Desenvolvimento.cs" Line="21" Column="10" />
-      <File FileName="Fifa.Proclube.Domains/Repositorio/ClubeRepository.cs" Line="42" Column="12" />
-      <File FileName="Fifa.Proclube.Domains/Repositorio/EstatisticasRepository.cs" Line="14" Column="31" />
-      <File FileName="Fifa.Proclube.Domains/Repositorio/PosicaoRepository.cs" Line="18" Column="29" />
-      <File FileName="Fifa.Proclube.Domains/Models/ClubeElenco.cs" Line="1" Column="1" />
-      <File FileName="Fifa.Proclube.Domains/Repositorio/ClubeElencoRepository.cs" Line="8" Column="78" />
-      <File FileName="Fifa.Proclube.Domains/Repositorio/CampeonatoRepositorio.cs" Line="21" Column="5" />
-      <File FileName="Fifa.Proclube.Domains/Repositorio/ClubeContratandoRepository.cs" Line="1" Column="1" />
-      <File FileName="Fifa.Proclube.Domains/Repositorio/ClubeCampeonatoRepository.cs" Line="15" Column="32" />
+      <File FileName="Fifa.Proclube.API/Controllers/BaseController.cs" Line="13" Column="33" />
+      <File FileName="../../../../../../Library/Frameworks/Mono.framework/Versions/5.0.1/lib/mono/msbuild/15.0/bin/Microsoft.Common.CurrentVersion.targets" Line="1564" Column="130" />
+      <File FileName="Fifa.Proclube.API/Web.config" Line="45" Column="33" />
+      <File FileName="Fifa.Proclube.API/packages.config" Line="18" Column="65" />
+      <File FileName="Fifa.Proclube.API/Views/Web.config" Line="27" Column="87" />
+      <File FileName="Fifa.Proclube.API/App_Start/WebApiConfig.cs" Line="5" Column="7" />
       <File FileName="Fifa.Proclube.git Status" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Fifa.Proclube" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

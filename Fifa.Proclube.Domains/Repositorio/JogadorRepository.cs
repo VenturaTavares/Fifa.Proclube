@@ -96,7 +96,7 @@ namespace Fifa.Proclube.Domains.Repositorio
             using (var PosiRep = new PosicaoRepository(new ProclubeContext()))
             {
 
-                posicao = await PosiRep.FindAsync(s => s.JogadorID == JogadorID);
+                posicao = await this.ObterPosicao(JogadorID);
 
             }
 

@@ -79,7 +79,7 @@ namespace Fifa.Proclube.API.Models
             set;
         }
 
-        public List<Jogador> Jogadores { get; set}
+        public List<Jogador> Jogadores { get; set; }
 
     }
 

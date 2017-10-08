@@ -7,9 +7,11 @@ using System.Threading.Tasks;
 using System.Web.Mvc;
 using AutoMapper;
 using Fifa.Proclube.API.Models;
+using Fifa.Proclube.API.Providers;
 using Fifa.Proclube.Domains.Models;
 
 using Fifa.Proclube.Domains.Repositorio;
+using Microsoft.Owin.Security.OAuth;
 
 namespace Fifa.Proclube.API.Controllers
 {
@@ -73,25 +75,7 @@ namespace Fifa.Proclube.API.Controllers
 
 
 
-		[HttpPost]
-		[Route("LogarParticipante")]
-		public async Task<UsuarioViewModel> LogarParticipante(string login_email, string senha)
-		{
-
-			UsuarioViewModel usuario = new UsuarioViewModel();
-			try
-			{
-				usuario.Email = login_email;
-				usuario.Nome = login_email;
-			}
-			catch (Exception ex)
-			{
-
-				throw ex;
-			}
-
-			return usuario;
-		}
+		
 
 
 
