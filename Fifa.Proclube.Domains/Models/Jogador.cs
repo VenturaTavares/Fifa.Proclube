@@ -17,13 +17,26 @@ namespace Fifa.Proclube.Domains.Models
 			set;
 		}
 
+
+        public int UsuarioID
+        {
+            get;
+            set;
+        }
+
 		public int PosicaoID
 		{
 			get;
 			set;
 		}
 
-        public Usuario Usuario
+        public virtual Posicao Posicao
+        {
+            get;
+            set;
+        }
+
+        public virtual Usuario Usuario
         {
             get;
             set;

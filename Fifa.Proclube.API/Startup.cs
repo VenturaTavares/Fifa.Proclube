@@ -28,7 +28,7 @@ namespace Fifa.Proclube.API
 
         public void Configuration(IAppBuilder app)
         {
-            ConfigureOAuth(app);
+            //ConfigureOAuth(app);
             HttpConfiguration config = new HttpConfiguration();
             WebApiConfig.Register(config);
             app.UseNinjectMiddleware(CreateKernel).UseNinjectWebApi(config);

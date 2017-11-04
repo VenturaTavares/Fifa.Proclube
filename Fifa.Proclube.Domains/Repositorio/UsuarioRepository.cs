@@ -4,12 +4,12 @@ using System.Threading.Tasks;
 using Fifa.Proclube.Domains.Common;
 using Fifa.Proclube.Domains.Infraestrutura;
 using Fifa.Proclube.Domains.Models;
-using Fifa.Proclube.Domains.Models.ViewModels;
+
 
 namespace Fifa.Proclube.Domains.Repositorio
 {
 
-	public class UsuarioRepository : BaseRepository<Usuario>
+	public class UsuarioRepository : BaseRepository<Usuario>, IDisposable
 	{
 		public UsuarioRepository(ProclubeContext context) : base(context)
 		{
@@ -39,6 +39,30 @@ namespace Fifa.Proclube.Domains.Repositorio
                 
         }
 
+       
+
+        public Usuario MontarUsuario()
+        {
+
+            Usuario UserFake = new Usuario();
+
+            UserFake.CodigoPsn = "123456789";
+            UserFake.CPF = "123456789";
+            UserFake.DataRegistro = DateTime.Now;
+            UserFake.Email = "Teste@teste.com";
+            UserFake.NickName = "UserFake.NickName";
+            UserFake.Nome = "UserFake.Nome";
+            UserFake.Senha = "UserFake.Senha";
+            UserFake.UsuarioID = 1;
+
+            return UserFake;
+        }
+
+
+        public void Dispose()
+        {
+            _context.Dispose();
+        }
 
 
 	}

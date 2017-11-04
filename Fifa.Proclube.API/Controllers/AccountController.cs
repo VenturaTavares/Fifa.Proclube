@@ -13,7 +13,7 @@ using Fifa.Proclube.Domains.Repositorio;
 
 namespace Fifa.Proclube.API.Controllers
 {
-	[RoutePrefix("api/Account")]
+
 	public class AccountController : BaseController
 	{
 		#region Declare
@@ -48,7 +48,7 @@ namespace Fifa.Proclube.API.Controllers
 
 		[HttpPost]
 		[Route("RegistrarParticipante")]
-		public async Task<System.Net.Http.HttpResponseMessage> RegistrarParticipante(UsuarioViewModel usuario )
+		public async Task<UsuarioViewModel> RegistrarParticipante(UsuarioViewModel usuario )
 		{
 
 			try
@@ -64,12 +64,106 @@ namespace Fifa.Proclube.API.Controllers
 			catch (Exception ex)
 			{
 
-				return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
+                throw ex;
 			}
 
 
-			return Request.CreateResponse(HttpStatusCode.OK);
+            return usuario;
 		}
+
+        [HttpPost]
+        [Route("RegistrarParticipante")]
+        public async Task<UsuarioViewModel> AlterarParticipante(UsuarioViewModel usuario)
+        {
+
+            try
+            {
+                //if (!ModelState.IsValid)
+                //    return Request.CreateResponse(HttpStatusCode.InternalServerError);
+
+                //var _participante = iMapper.Map<ParticipanteViewModel, Participante>(participante);
+
+                //var returnParticipante = await _participanteRepository.RegistrarParticipante(_participante);
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+
+            return usuario;
+        }
+
+
+        [HttpPost]
+        [Route("RegistrarParticipante")]
+        public async Task<System.Net.Http.HttpResponseMessage> AlterarSenha(string SenhaNova, string SenhaNovaConfirm,string SenhaAntiga )
+        {
+
+            try
+            {
+                //if (!ModelState.IsValid)
+                //    return Request.CreateResponse(HttpStatusCode.InternalServerError);
+
+                //var _participante = iMapper.Map<ParticipanteViewModel, Participante>(participante);
+
+                //var returnParticipante = await _participanteRepository.RegistrarParticipante(_participante);
+
+                if(SenhaNova!=SenhaNovaConfirm){
+
+            return Request.CreateResponse(HttpStatusCode.ExpectationFailed);
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+
+            return Request.CreateResponse(HttpStatusCode.OK, MontarUsuario());
+        }
+
+
+
+        [HttpPost]
+        [Route("ObterParticipante")]
+        public async Task<System.Net.Http.HttpResponseMessage> ObterParticipante(UsuarioViewModel usuario)
+        {
+
+            UsuarioViewModel user = new UsuarioViewModel();
+
+            user = this.MontarUsuario();
+
+            return Request.CreateResponse(HttpStatusCode.OK, usuario);
+        
+        }
+
+
+        private UsuarioViewModel MontarUsuario(){
+
+            UsuarioViewModel UserFake = new UsuarioViewModel();
+
+       
+
+            using(var rep = new UsuarioRepository(new Domains.Infraestrutura.ProclubeContext())){
+
+               Usuario user =  rep.MontarUsuario();
+
+                UserFake = iMapper.Map<Usuario, UsuarioViewModel>(user);
+
+
+            }
+
+            return UserFake;
+        }
+
+
+
+
 
 
 
@@ -89,6 +183,8 @@ namespace Fifa.Proclube.API.Controllers
 
 				throw ex;
 			}
+
+            usuario = MontarUsuario();
 
 			return usuario;
 		}
