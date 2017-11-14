@@ -17,14 +17,15 @@ namespace Fifa.Proclube.API
 {
     public class Startup
     {
-        public class RouteHub : Hub
-        {
-            public void Send(string name, string message)
-            {
-                // Call the broadcastMessage method to update clients.
-                Clients.All.broadcastMessage(name, message);
-            }
-        }
+        //{
+        //    public class RouteHub : Hub
+        //    {
+        //        public void Send(string name, string message)
+        //        {
+        //            // Call the broadcastMessage method to update clients.
+        //            Clients.All.broadcastMessage(name, message);
+        //        }
+        //    }
 
         public void Configuration(IAppBuilder app)
         {
@@ -46,7 +47,7 @@ namespace Fifa.Proclube.API
             OAuthAuthorizationServerOptions OAuthServerOptions = new OAuthAuthorizationServerOptions()
             {
                 AllowInsecureHttp = true,
-                TokenEndpointPath = new PathString("/api/Account/Authenticate"),
+                TokenEndpointPath = new PathString("/api/Account/LogarParticipante"),
                 AccessTokenExpireTimeSpan = TimeSpan.FromDays(365),
                 Provider = new SimpleAuthorizationServerProvider()
             };

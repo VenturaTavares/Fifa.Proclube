@@ -167,7 +167,7 @@ namespace Fifa.Proclube.API.Controllers
 
 
 
-		[HttpPost]
+		[HttpGet]
 		[Route("LogarParticipante")]
 		public async Task<UsuarioViewModel> LogarParticipante(string login_email, string senha)
 		{

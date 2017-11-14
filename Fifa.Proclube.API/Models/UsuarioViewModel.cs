@@ -56,7 +56,6 @@ namespace Fifa.Proclube.API.Models
         }
 
         [Required]
-        [Remote("ValidarCPF", "Validacao")]
         public string CPF
         {
             get;
